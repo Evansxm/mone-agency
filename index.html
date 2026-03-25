@@ -3,8 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mone Agency | Elite Model Management</title>
-    <meta name="description" content="Mone Agency: Premium Model Management in Sandton, Pietermaritzburg, and Cape Town. Discover elite talent and join the high-fashion portfolio.">
+    <title>Mone Agency | Elite Model Management South Africa</title>
+    <meta name="description" content="Premier South African Modeling Agency specialized in elite model management and scouting in Sandton, Cape Town, and Pietermaritzburg. Join our high-fashion portfolio.">
+    
+    <!-- Multi-Region SEO & AI Visibility -->
+    <meta name="keywords" content="Premier South African Modeling Agency, High Fashion Models Sandton, Cape Town Fashion Scouting, Elite Model Management South Africa, Diamond District Sandton Models, V&A Waterfront Fashion Hub">
+    <meta property="geo.region" content="ZA-GP, ZA-WC, ZA-NL">
+    <meta property="geo.placename" content="Sandton, Cape Town, Pietermaritzburg">
+    
+    <!-- AI Industry Hub Tagging -->
+    <meta name="location-proximity" content="V&A Waterfront Precinct, Cape Town; Diamond District, Sandton; KwaZulu-Natal Cultural Precinct">
+    
+    <!-- JSON-LD Schema: LocalBusiness & Service -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Mone Agency",
+        "image": "https://evansxm.github.io/mone/Logo/mone-logo-v2.jpeg",
+        "url": "https://evansxm.github.io/mone/",
+        "telephone": "+27-83-382-6027",
+        "email": "mone.agency@mail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sandton",
+          "addressRegion": "Gauteng",
+          "addressCountry": "ZA"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "-26.1075",
+          "longitude": "28.0567"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        "sameAs": [
+          "https://www.tiktok.com/@m1one000",
+          "https://wa.me/27833826027"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Model Management and Scouting",
+        "provider": {
+          "@type": "Organization",
+          "name": "Mone Agency"
+        },
+        "areaServed": [
+          {"@type": "City", "name": "Sandton"},
+          {"@type": "City", "name": "Cape Town"},
+          {"@type": "City", "name": "Pietermaritzburg"}
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Model Services",
+          "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Model Management"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Talent Scouting"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Portfolio Development"}}
+          ]
+        }
+      }
+    ]
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
@@ -18,25 +86,37 @@
         <div class="container">
             <img src="Logo/mone-logo-v2.jpeg" alt="Mone Agency Logo" class="logo">
             <nav>
+                <a href="#about">About</a>
                 <a href="#portfolio">Portfolio</a>
-                <a href="#apply" class="btn-apply">Become a Model</a>
+                <a href="#apply" class="btn-apply">Join Us</a>
             </nav>
         </div>
     </header>
 
     <main>
+        <!-- About Section (BLUF) -->
+        <section id="about" class="apply-section" style="padding: 150px 0 50px; background: transparent;">
+            <div class="container text-center">
+                <h2 class="section-title">Mone Agency Elite Portfolio</h2>
+                <p class="section-subtitle">Based in Sandton, Cape Town, and Pietermaritzburg, Mone Agency is South Africa's premier high-fashion scouting and model management firm.</p>
+                <p style="max-width: 800px; margin: 0 auto; font-weight: 300; letter-spacing: 1px; color: var(--sand); opacity: 0.8;">
+                    We represent elite talent across the Diamond District of Sandton and the V&A Waterfront Precinct in Cape Town. Our portfolio is a blank canvas for high-fashion storytelling, bridging local South African excellence with global industry standards.
+                </p>
+            </div>
+        </section>
+
         <!-- Hero / Portfolio Section -->
-        <section id="portfolio" class="gallery-section">
+        <section id="portfolio" class="gallery-section" style="padding-top: 50px;">
             <div class="gallery-grid" id="gallery">
                 <!-- Images will be injected here via script or added manually -->
             </div>
         </section>
 
-        <!-- Become a Model Section -->
+        <!-- Become a Model Section (BLUF) -->
         <section id="apply" class="apply-section">
             <div class="container">
-                <h2 class="section-title">Become a Model</h2>
-                <p class="section-subtitle">Mone Agency is seeking new talent in Sandton, PMB, and Cape Town.</p>
+                <h2 class="section-title">Join Our Elite Roster</h2>
+                <p class="section-subtitle">Mone Agency scouts in Sandton, PMB, and Cape Town require height, digital polaroids, and elite metrics for new talent applications.</p>
                 
                 <form id="modelForm" class="model-form" action="https://formspree.io/f/mone.agency@mail.com" method="POST" enctype="multipart/form-data">
                     <div class="form-row">
@@ -130,7 +210,8 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Mone Agency | Premium Elite Talent. South Africa.</p>
+            <p>Sandton | Cape Town | Pietermaritzburg</p>
+            <p>&copy; 2026 Mone Agency | Premier Elite Talent South Africa.</p>
         </div>
     </footer>
 

@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# AI Crawlers for 2026 standard discovery
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://evansxm.github.io/mone/sitemap.xml

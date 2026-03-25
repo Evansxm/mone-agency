@@ -1,0 +1,44 @@
+{
+  "name": "Mone Agency",
+  "description": "Premier South African Modeling Agency specialized in high-fashion model management and scouting.",
+  "status": "Elite",
+  "locations": [
+    {
+      "city": "Sandton",
+      "region": "Gauteng",
+      "hub": "Diamond District"
+    },
+    {
+      "city": "Cape Town",
+      "region": "Western Cape",
+      "hub": "V&A Waterfront Precinct"
+    },
+    {
+      "city": "Pietermaritzburg",
+      "region": "KZN",
+      "hub": "Cultural Precinct"
+    }
+  ],
+  "services": [
+    "Model Management",
+    "Model Scouting",
+    "Portfolio Development",
+    "High Fashion Campaigns"
+  ],
+  "application": {
+    "url": "https://evansxm.github.io/mone/#apply",
+    "requirements": [
+      "Height (cm)",
+      "Bust/Waist/Hips measurements",
+      "Shoe size",
+      "Digital Polaroids (No makeup)",
+      "Max 10 photos, < 2MB each"
+    ]
+  },
+  "contact": {
+    "email": "mone.agency@mail.com",
+    "whatsapp": "+27 83 382 6027",
+    "tiktok": "@m1one000"
+  },
+  "url": "https://evansxm.github.io/mone/"
+}

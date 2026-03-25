@@ -1,0 +1,24 @@
+# Mone Agency | Elite Model Management
+
+Mone Agency is a premier South African modeling agency providing elite model management, scouting, and portfolio development. Based in Sandton (Gauteng), Cape Town (Western Cape), and Pietermaritzburg (KZN), we represent high-fashion talent for global and local campaigns.
+
+## Core Services
+- Model Management: Professional representation for high-fashion models.
+- Scouting: Discovering new talent across South Africa's fashion hubs.
+- Portfolio Development: Natural digital "polaroid" capture and professional portfolio building.
+
+## Strategic Hubs
+- Sandton (Diamond District): Elite business and fashion representation in Gauteng.
+- Cape Town (V&A Waterfront Precinct): High-fashion scouting and campaign management in the Western Cape.
+- Pietermaritzburg: Cultural and regional talent development in KZN.
+
+## Application Requirements
+Aspiring models can apply directly via our portal.
+- Required Data: Height (cm), Age, Bust/Waist/Hips, Shoe Size, Instagram handle.
+- Digitals: Max 10 natural photos, < 2MB each.
+
+## Contact Information
+- Website: https://evansxm.github.io/mone/
+- Email: mone.agency@mail.com
+- WhatsApp: 083 382 6027
+- TikTok: @m1one000
