@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mone Agency | Elite Model Management</title>
+    <meta name="description" content="Mone Agency: Premium Model Management in Sandton, Pietermaritzburg, and Cape Town. Discover elite talent and join the high-fashion portfolio.">
+    <meta name="keywords" content="Mone Agency, Model Portfolio, Fashion Agency South Africa, Sandton Models, Cape Town Models, Model Application">
+    <link rel="icon" type="image/jpeg" href="Logo/mone-logo-v2.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="Logo/mone-logo-v2.jpeg" alt="Mone Agency Logo" class="logo">
+            <nav>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#apply" class="btn-apply">Become a Model</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero / Portfolio Section -->
+        <section id="portfolio" class="gallery-section">
+            <div class="gallery-grid" id="gallery">
+                <!-- Images will be injected here via script or added manually -->
+            </div>
+        </section>
+
+        <!-- Become a Model Section -->
+        <section id="apply" class="apply-section">
+            <div class="container">
+                <h2 class="section-title">Become a Model</h2>
+                <p class="section-subtitle">Mone Agency is seeking new talent in Sandton, PMB, and Cape Town.</p>
+                
+                <form id="modelForm" class="model-form" action="https://formspree.io/f/mone.agency@mail.com" method="POST" enctype="multipart/form-data">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age</label>
+                            <input type="number" id="age" name="age" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="height">Height (cm)</label>
+                            <input type="number" id="height" name="height" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="shoe">Shoe Size</label>
+                            <input type="text" id="shoe" name="shoe" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="bust">Bust / Chest</label>
+                            <input type="text" id="bust" name="bust" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="waist">Waist</label>
+                            <input type="text" id="waist" name="waist" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hips">Hips</label>
+                            <input type="text" id="hips" name="hips" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="hair">Hair Color</label>
+                            <input type="text" id="hair" name="hair" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="eyes">Eye Color</label>
+                            <input type="text" id="eyes" name="eyes" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">Location (Sandton / PMB / Cape Town)</label>
+                        <select id="location" name="location" required>
+                            <option value="">Select Location</option>
+                            <option value="Sandton">Sandton</option>
+                            <option value="Pietermaritzburg">Pietermaritzburg</option>
+                            <option value="Cape Town">Cape Town</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="instagram">Instagram Handle</label>
+                        <input type="text" id="instagram" name="instagram" placeholder="@username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Digitals / Natural Polaroids (Max 10 photos, < 2MB each)</label>
+                        <div class="upload-zone" id="uploadZone">
+                            <i class="fas fa-camera"></i>
+                            <p>Drag & Drop or Click to Upload</p>
+                            <input type="file" id="photos" name="photos[]" multiple accept="image/*" hidden>
+                        </div>
+                        <div id="fileList" class="file-list"></div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Submit Application</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Buttons -->
+    <div class="floating-cta">
+        <a href="https://wa.me/27833826027" class="whatsapp" target="_blank" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.tiktok.com/@m1one000" class="tiktok" target="_blank" aria-label="TikTok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mone Agency | Premium Elite Talent. South Africa.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
