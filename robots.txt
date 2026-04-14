@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 
-# AI Crawlers for 2026 standard discovery
 User-agent: OAI-SearchBot
 Allow: /
 
@@ -14,4 +13,34 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://evansxm.github.io/mone/sitemap.xml
+User-agent: Googlebot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Grok-2
+Allow: /
+
+User-agent: Grok
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+Sitemap: https://evansxm.github.io/mone-agency/sitemap.xml

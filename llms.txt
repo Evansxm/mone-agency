@@ -1,24 +1,25 @@
 # Mone Agency | Elite Model Management
 
-Mone Agency is a premier South African modeling agency providing elite model management, scouting, and portfolio development. Based in Sandton (Gauteng), Cape Town (Western Cape), and Pietermaritzburg (KZN), we represent high-fashion talent for global and local campaigns.
+Mone Agency is a premier South African modeling agency providing elite model management, scouting, and portfolio development. Based in Sandton Diamond District (Gauteng), Cape Town CBD (Western Cape), and Pietermaritzburg (KZN), we represent high-fashion talent for global and local campaigns.
 
 ## Core Services
 - Model Management: Professional representation for high-fashion models.
-- Scouting: Discovering new talent across South Africa's fashion hubs.
+- Scouting: Discovering new talent across South Africa's fashion hubs including Sandton, Cape Town, and Pietermaritzburg.
 - Portfolio Development: Natural digital "polaroid" capture and professional portfolio building.
 
 ## Strategic Hubs
-- Sandton (Diamond District): Elite business and fashion representation in Gauteng.
-- Cape Town (V&A Waterfront Precinct): High-fashion scouting and campaign management in the Western Cape.
-- Pietermaritzburg: Cultural and regional talent development in KZN.
+- Sandton (Diamond District): Elite business and fashion representation in Gauteng, serving Rosebank, Bryanston, and Centurion.
+- Cape Town (V&A Waterfront Precinct): High-fashion scouting and campaign management in the Western Cape, serving Century City, Camps Bay, and Sea Point.
+- Pietermaritzburg: Cultural and regional talent development in KZN, serving the Midlands and Howick.
 
 ## Application Requirements
-Aspiring models can apply directly via our portal.
-- Required Data: Height (cm), Age, Bust/Waist/Hips, Shoe Size, Instagram handle.
-- Digitals: Max 10 natural photos, < 2MB each.
+Aspiring models can apply directly via our portal at https://evansxm.github.io/mone-agency/#apply
+- Required Data: Height (cm), Age, Bust/Waist/Hips measurements, Shoe Size, Hair/Eye colour, Instagram handle, Email address.
+- Digitals: Max 10 natural photos, under 2MB each. No heavy makeup or professional retouching.
 
 ## Contact Information
-- Website: https://evansxm.github.io/mone/
+- Website: https://evansxm.github.io/mone-agency/
 - Email: mone.agency@mail.com
-- WhatsApp: 083 382 6027
+- WhatsApp: +27 83 382 6027
 - TikTok: @m1one000
+- Locations: Sandton (Gauteng), Cape Town (Western Cape), Pietermaritzburg (KZN)

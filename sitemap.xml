@@ -1,21 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
   <url>
-    <loc>https://evansxm.github.io/mone/</loc>
-    <lastmod>2025-06-02</lastmod>
+    <loc>https://evansxm.github.io/mone-agency/</loc>
+    <lastmod>2026-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <geo:geo>
+      <geo:location>
+        <geo:lat>-26.1075</geo:lat>
+        <geo:lon>28.0567</geo:lon>
+      </geo:location>
+    </geo:geo>
   </url>
   <url>
-    <loc>https://evansxm.github.io/mone/#portfolio</loc>
-    <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://evansxm.github.io/mone-agency/#about</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://evansxm.github.io/mone/#apply</loc>
-    <lastmod>2025-06-02</lastmod>
+    <loc>https://evansxm.github.io/mone-agency/#portfolio</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://evansxm.github.io/mone-agency/#contact</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://evansxm.github.io/mone-agency/#apply</loc>
+    <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://evansxm.github.io/mone-agency/privacy.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

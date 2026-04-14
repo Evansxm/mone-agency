@@ -1,44 +1,54 @@
 {
   "name": "Mone Agency",
-  "description": "Premier South African Modeling Agency specialized in high-fashion model management and scouting.",
-  "status": "Elite",
+  "description": "Premier South African Modeling Agency specialized in high-fashion model management, luxury editorial talent scouting, and commercial fashion casting. Serving Sandton, Cape Town, and Pietermaritzburg.",
+  "status": "Active",
+  "url": "https://evansxm.github.io/mone-agency/",
   "locations": [
     {
       "city": "Sandton",
       "region": "Gauteng",
-      "hub": "Diamond District"
+      "hub": "Diamond District",
+      "description": "Elite business and fashion representation in Gauteng",
+      "serving": ["Rosebank", "Bryanston", "Centurion", "Midrand"]
     },
     {
       "city": "Cape Town",
       "region": "Western Cape",
-      "hub": "V&A Waterfront Precinct"
+      "hub": "V&A Waterfront Precinct",
+      "description": "High-fashion scouting and campaign management in the Western Cape",
+      "serving": ["Century City", "Camps Bay", "Sea Point", "Claremont"]
     },
     {
       "city": "Pietermaritzburg",
       "region": "KZN",
-      "hub": "Cultural Precinct"
+      "hub": "Cultural Precinct",
+      "description": "Cultural and regional talent development in KZN",
+      "serving": ["Midlands", "Howick", "Hilton"]
     }
   ],
   "services": [
     "Model Management",
     "Model Scouting",
     "Portfolio Development",
-    "High Fashion Campaigns"
+    "High Fashion Campaigns",
+    "Commercial Fashion Casting"
   ],
   "application": {
-    "url": "https://evansxm.github.io/mone/#apply",
+    "url": "https://evansxm.github.io/mone-agency/#apply",
     "requirements": [
       "Height (cm)",
-      "Bust/Waist/Hips measurements",
+      "Age (14-45)",
+      "Bust/Waist/Hips measurements (cm)",
       "Shoe size",
-      "Digital Polaroids (No makeup)",
-      "Max 10 photos, < 2MB each"
+      "Hair and eye colour",
+      "Instagram handle",
+      "Email address",
+      "Digital Polaroids (No makeup, Max 10 photos, < 2MB each)"
     ]
   },
   "contact": {
     "email": "mone.agency@mail.com",
     "whatsapp": "+27 83 382 6027",
     "tiktok": "@m1one000"
-  },
-  "url": "https://evansxm.github.io/mone/"
+  }
 }
