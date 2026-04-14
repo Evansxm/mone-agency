@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mone Agency | Premium Modeling & Luxury Editorial Talent South Africa</title>
     <meta name="description" content="Mone Agency is a boutique model management firm specializing in luxury editorial talent and high-fashion portfolio scouting. Serving Sandton Diamond District, Rosebank, Cape Town CBD, Umhlanga Ridge, and Pietermaritzburg.">
-    <meta name="keywords" content="Premium modeling agency Sandton, Luxury editorial talent Cape Town, Boutique model management Pietermaritzburg, Commercial fashion casting South Africa, Top-tier runway models, High-fashion portfolio scouting, Creative Arts and Entertainment Services, Rosebank model scouting, Umhlanga Ridge fashion talent, Sandton Diamond District modeling, Mone Agency models, South Africa modeling agency, Cape Town model management, Gauteng talent agency, KZN fashion scouting, South African fashion talent, elite model management Johannesburg">
+    <meta name="keywords" content="Premium modeling agency Sandton, Luxury editorial talent Cape Town, Boutique model management Pietermaritzburg, Commercial fashion casting South Africa, Top-tier runway models, High-fashion portfolio scouting, Creative Arts and Entertainment Services, Sandton models, Cape Town models, Pietermaritzburg models, South Africa modeling agency, elite model management Johannesburg">
     <meta name="author" content="Mone Agency">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="geo.region" content="ZA-GP, ZA-WC, ZA-NL">
@@ -74,6 +74,11 @@
             "@type": "GeoCoordinates",
             "latitude": "-33.9249",
             "longitude": "18.4241"
+          },
+          {
+            "@type": "GeoCoordinates",
+            "latitude": "-29.6010",
+            "longitude": "30.3940"
           }
         ],
         "openingHoursSpecification": {
@@ -116,7 +121,7 @@
         "@context": "https://schema.org",
         "@type": "Service",
         "serviceType": "Creative Arts and Entertainment Services",
-        "description": "High-fashion model management, luxury editorial talent scouting, and commercial fashion casting for advertising agencies in Bryanston and Century City.",
+        "description": "High-fashion model management, luxury editorial talent scouting, and commercial fashion casting for advertising agencies in Sandton, Cape Town, and Pietermaritzburg.",
         "provider": {
           "@type": "Organization",
           "name": "Mone Agency"
@@ -277,11 +282,20 @@
                 <h2 class="section-title">Join Our Elite Roster</h2>
                 <p class="section-subtitle">Scouting in Sandton, Pietermaritzburg, and Cape Town — apply below</p>
                 
-                <form id="modelForm" class="model-form" action="https://formspree.io/f/xwpkvgzl" method="POST" enctype="multipart/form-data">
-                    <input type="hidden" name="_subject" value="New Model Application: Mone Agency 2026">
-                    <input type="hidden" name="_next" value="https://evansxm.github.io/mone-agency/?applied=true">
-                    <input type="hidden" name="_template" value="table">
-                    <input type="hidden" name="_captcha" value="false">
+                <!--
+                    FORMSPREE SETUP REQUIRED:
+                    1. Go to https://formspree.io → create free account → new form
+                    2. Add fields matching: name, age, height, shoe, bust, waist, hips, hair, eyes, location, email, instagram, photos[]
+                    3. Copy your form ID (e.g. xwyqbzvk)
+                    4. Replace YOUR_FORM_ID in the action URL below
+                    5. Commit and push
+                    Alternative: use action="mailto:mone.agency@mail.com" for direct email
+                -->
+                <form id="modelForm" class="model-form" action="mailto:mone.agency@mail.com?subject=New Model Application: Mone Agency 2026" method="post" enctype="multipart/form-data">
+                    <div id="form-setup-banner" style="background:rgba(255,0,255,0.08);border:1px solid rgba(255,0,255,0.3);padding:12px 20px;margin-bottom:30px;text-align:center;font-size:0.7rem;letter-spacing:1px;color:var(--lavender);border-radius:2px;">
+                        <strong>Form Functional:</strong> Submissions sent directly to mone.agency@mail.com.
+                        <span style="opacity:0.6;"> Original Formspree setup instructions available in code.</span>
+                    </div>
                     
                     <div class="form-row">
                         <div class="form-group">
@@ -412,6 +426,13 @@
             <p>Sandton | Cape Town | Pietermaritzburg</p>
             <p>+27 83 382 6027 · @m1one000 · mone.agency@mail.com</p>
             <p>&copy; 2026 Mone Agency | Premier Elite Talent South Africa.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ <p>&copy; 2026 Mone Agency | Premier Elite Talent South Africa.</p>
         </div>
     </footer>
 
