@@ -80,7 +80,6 @@ nav a:hover {
 
 .btn-apply {
     background: var(--brand-gradient);
-    -webkit-background-clip: padding-box;
     padding: 12px 24px;
     border: none !important;
     position: relative;
@@ -160,10 +159,28 @@ nav a:hover {
     border: 1px solid rgba(255, 0, 255, 0.05);
 }
 
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 5px;
+}
+
+.form-row.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
 .form-group label {
+    display: block;
     color: var(--lavender);
     font-size: 0.65rem;
     letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
 }
 
 .form-group input, .form-group select, .form-group textarea {
@@ -175,8 +192,16 @@ nav a:hover {
     border-radius: 0;
 }
 
-.form-group input:focus {
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
     border-bottom-color: var(--magenta);
+}
+
+.form-group select option {
+    background: var(--onyx);
+    color: var(--sand);
 }
 
 .upload-zone {
@@ -191,10 +216,26 @@ nav a:hover {
 
 .btn-submit {
     background: var(--brand-gradient);
+    border: none;
     border-radius: 0;
     padding: 25px;
     font-size: 0.9rem;
     letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-submit:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.4);
+}
+
+.btn-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
 }
 
 /* Floating Elements */
@@ -214,8 +255,53 @@ footer {
     background-color: var(--onyx);
 }
 
+@media (max-width: 900px) {
+    .model-form {
+        padding: 30px 20px;
+    }
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .form-row.three-col {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 768px) {
     .container { padding: 0 20px; }
     .section-title { font-size: 2rem; }
     header .logo { height: 50px; }
+    header .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    nav a {
+        margin: 0 10px;
+        font-size: 0.65rem;
+    }
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    .apply-section {
+        padding: 60px 0;
+    }
+    .btn-submit {
+        padding: 18px;
+        font-size: 0.8rem;
+        letter-spacing: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title { font-size: 1.5rem; }
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
 }
